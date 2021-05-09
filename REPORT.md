@@ -75,8 +75,8 @@ main([Arkadieva, Babanova, Korsakova, Dashkov, Ilin, Flerov]):-
     is_oldest(teach(english)),
     is_teacher(teach(english), teach(math)),
     is_teacher(teach(english), teach(history)),
-    is_older(Arkadieva, teach(german)).```
-
+    is_older(Arkadieva, teach(german)).
+```
 ## Выводы
 
 При выполнении данной лабораторной работы я изучил способы поиска заданой задачи исходя из заданых предикатов. Очевидно преймущество языка пролог привыполении лабораторной за счет простой системы правил перехода от одного состояния к другим.
